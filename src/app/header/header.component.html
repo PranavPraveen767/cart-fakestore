@@ -1,0 +1,9 @@
+<nav class="navbar p-3" style="background-color: rgb(147, 111, 162);">
+    <div class="container-fluid">
+        <a class="navbar-brand">Product</a>
+        <form class="d-flex" role="search">
+            <i class="fa-solid fa-cart-shopping fa-bounce fa-xl"></i>
+            <span class="badge text-bg-secondary" *ngIf="cartCount > 0">{{ cartCount }}</span>
+        </form>
+    </div>
+</nav>
